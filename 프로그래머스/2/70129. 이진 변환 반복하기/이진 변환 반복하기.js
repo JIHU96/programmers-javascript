@@ -20,14 +20,6 @@ function solution(s) {
         zeroCount += cZeroCount;
         x = cX;
     }
-    
-    
-    
-    //while(x !== ''){
-    //    x = convert(x)
-    //}
-    
-    
-    
+
     return [times, zeroCount];
 }
