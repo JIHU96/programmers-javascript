@@ -1,3 +1,4 @@
+// Set 객체의 size를 이용하여 분기 처리
 function solution(a, b, c, d) {
     let set = new Set([a, b, c, d])
     let hash = [a, b, c, d].reduce((acc, dice) => {
@@ -27,8 +28,6 @@ function solution(a, b, c, d) {
             const [p, q] = Object.keys(hash).map(v => +v)
             return (p + q) * (Math.abs(p - q));
         }
-        
-        
     }
     
     return 0;
